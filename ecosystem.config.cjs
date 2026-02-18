@@ -6,7 +6,7 @@ module.exports = {
       args: 'run preview',
       env: {
         NODE_ENV: 'production',
-        PORT: 3000
+        PORT: 3003
       },
       instances: 1,
       exec_mode: 'fork',
@@ -25,7 +25,7 @@ module.exports = {
       args: 'run dev',
       env: {
         NODE_ENV: 'development',
-        PORT: 3001
+        PORT: 3004
       },
       instances: 1,
       exec_mode: 'fork',
